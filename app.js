@@ -4,8 +4,8 @@
 
 const express = require('express');
 const path = require('path');
-bodyParser = require('body-parser');
-cors = require('cors');
+const bodyParser = require('body-parser');
+const cors = require('cors');
 const CLIENT_BUILD_PATH = path.join(__dirname, '../contact');
 console.log(CLIENT_BUILD_PATH)
 //var router = require('express').Router();
