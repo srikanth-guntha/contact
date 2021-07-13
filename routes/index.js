@@ -3,9 +3,9 @@ var router = require('express').Router();
 
 // router.use('/api', require('/'));
 
-router.get('/', (req,res) => {
+router.get('/contact', (req,res) => {
     console.log('fadfadsf')
-    res.status(200).send('default route')
+    res.status(200).send('contacts displayed')
 })
 
 module.exports = router;
